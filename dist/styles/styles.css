@@ -1,0 +1,478 @@
+body {
+    margin: 0;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    min-width: 470px;
+}
+
+#login {
+    background-color: white;
+    color: hsl(228, 4%, 72%);
+    border: none;
+    font-weight: 900;
+}
+
+button {
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    cursor: pointer
+}
+
+button:active {
+    background-color: hsl(180, 80%, 73%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 90%;
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-link {
+    color: hsl(0, 3%, 62%);
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    color: hsl(260, 8%, 14%);
+}
+
+.banner {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.nav .title {
+    width: 200px;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 1em;
+    width: 400px;
+}
+
+.description {
+    color:  hsl(0, 3%, 62%);
+    width: 400px;
+}
+
+#illustration {
+    width: 60%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#shortn-btn {
+    margin-left: 0.5em;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    cursor: pointer
+}
+
+#link-input {
+    padding: 1em 0;
+    width: 80%;
+    border-radius: 0.5em;
+    padding-left: 10px;
+}
+
+#link-input::placeholder {
+    padding: 2px;
+}
+
+.red-notice {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.shorten {
+    border: 1px solid black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 0.5em;
+    background-image: url("../images/bg-shorten-desktop.svg");
+    background-size: cover;
+    width: 90%;
+    background-color: hsl(257, 27%, 26%);
+    position: relative;
+    top: 70px;
+}
+
+.shorten-links {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+} 
+
+.link {
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.original-link {
+    margin-left: 1em;
+    align-self: center;
+}
+
+.new-link {
+    margin-right: 1em;
+}
+
+.short-link {
+    margin-right: 1em;
+    color: hsl(180, 66%, 49%);
+}
+
+.copy-btn {
+    border-radius: 0.5em;
+}
+
+.statistics {
+    background-color: hsl(227, 27%, 90%);
+    padding: 100px 0;
+    width: 100%;
+}
+
+.stat-heading {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+#card-2 {
+    position: relative;
+    top: 30px;
+}
+
+#card-3 {
+    position: relative;
+    top: 60px;
+}
+
+.card-img {
+    background-color: hsl(257, 27%, 26%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    top: -50px;
+    margin-bottom: -30px;
+}
+
+.card-description {
+    color: hsl(0, 3%, 62%);
+}
+
+#brand-img {
+    background-image: url("../images/icon-brand-recognition.svg");
+}
+
+#records-img {
+    background-image: url("../images/icon-detailed-records.svg");
+}
+
+#custom-img {
+    background-image: url("../images/icon-fully-customizable.svg");
+}
+
+.card {
+    background-color: white;
+    margin: 1em;
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 290px;
+}
+
+.bar {
+    padding: 4px;
+    background-color: hsl(180, 66%, 49%);
+    height: 4px;
+    width: 60px;
+    margin: 0;
+    position: relative;
+    top: 120px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.boost {
+    background-image: url("../images/bg-boost-desktop.svg");
+    background-color: hsl(257, 27%, 26%);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    padding-bottom: 1.5em;
+}
+
+.footer {
+    width: 100%;
+    background-color: hsl(0, 2%, 17%);
+    font-size: 12px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+}
+
+.footer-text>h2 {
+    color: white;
+    margin-right: 3em;
+}
+
+.f-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.f-header a {
+    color: hsl(0, 0%, 75%);
+}
+
+.f-header a:hover {
+    color: hsl(180, 66%, 49%);
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons>a {
+    margin: 0.5em;
+}
+
+/* Loading animation */
+.lds-dual-ring {
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 8px -20px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .short-link-text {
+    border: none;
+    resize: none;
+    background: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(180, 66%, 49%);
+    align-self: center;
+    overflow: hidden;
+    height: 16px;
+    width: 140px;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 430px) {
+    .banner-text .title {
+        font-size: 2em;
+        font-weight: bolder;
+        line-height: 1em;
+        width: 300px;
+    }
+    
+    .description {
+        color:  hsl(0, 3%, 62%);
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav .title {
+        text-align: center;
+        margin: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: 1em 0;
+    }
+
+    .pages {
+        margin: 1em 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .stat-heading .description {
+        width: 400px;
+    }
+
+    #illustration {
+        width: 80%;
+    }
+
+    form {
+        flex-wrap: wrap;
+    }
+    
+    #shortn-btn {
+        margin-top: 1em;
+        margin-left: 0px;
+        width: 95%;
+    }
+    
+    #link-input {
+        width: 90%;
+    }
+
+    .link {
+        flex-direction: column;
+    }
+
+    .original-link {
+        margin-left: 1em;
+        align-self: flex-start;
+        width: 90%;
+        margin-bottom: 1em;
+        border-bottom: 1px solid hsl(0, 3%, 62%);
+    }
+    
+    .new-link {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .short-link-text {
+        align-self: flex-start;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    .copy-btn {
+        margin: auto;
+        width: 95%;
+    }
+    
+    .short-link {
+        margin-right: 1em;
+        color: hsl(180, 66%, 49%);
+    }
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .card {
+        margin-bottom: -50px;
+        z-index: 1;
+    }
+
+    .bar {
+        height: 90px;
+        width: 4px;
+        top: 50px;
+        margin: 0;
+    }
+
+    .card-img {
+        margin-left: 110px;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-text>h2 {
+        color: white;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .banner {
+        justify-content: center;
+    }
+}
